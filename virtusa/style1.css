@@ -1,0 +1,147 @@
+
+
+.main-header img {
+    width: 200px;
+}
+
+.main-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.bg-section {
+    height: calc(90vh);
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701450890.jpg");
+}
+
+.img-container {
+    margin: auto;
+    width: 350px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.nav-links {
+    text-align: center;
+}
+
+.nav-links a {
+    padding: 10px 30px;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.nav-links a:hover {
+    background-color: rgba(0,0,0, 1);
+}
+
+.patient-care-section {
+    background-color: gainsboro;
+    padding: 50px 20%;
+    margin-top: 60px;
+}
+
+.patient-care-section article img {
+    width: 42%;
+}
+
+.patient-care-section article .info-text {
+    display: inline-block;
+    width: 55%;
+    padding: 0 10px;
+
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(8, 2, 2);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #0a0303;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
